@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exemplo de uso de 'figere' e 'picture'</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <section>
-            <h1>Exemplo de uso das  tags 'figure' e 'picture'</h1>
+      <section>
+        <h1>Exemplo de uso das tags 'figure' e 'picture'</h1>
 
-            <article>
-                <h2>1. Exemplo de uso da tag 'figure'</h2>
-                <p>A tag 'figure' é usada para agrupar uma imagem com sau legenda ou descrição.</p>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption>Uma bela paisagem montanhosa durante o por do sol</figcaption>
-                </figure>
-            </article>
-        </section>
+        <article>
+          <h2>1. Exemplo de uso da tag 'figure'</h2>
+          <p>
+            A tag 'figure' é usada para agrupar uma imagem com sau legenda ou
+            descrição.
+          </p>
+          <figure>
+            <img
+              src="/aula003_27_2025/img/Pixel arte por do sol.jfif"
+              alt="Paisagem de por do sol"
+            />
+            <figcaption>
+              Uma bela paisagem montanhosa durante o por do sol
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+      <section>
+        <article>
+          <h2>2. Exemplo de uso da tag 'picture'</h2>
+          <p>
+            A tag 'picture' é usada pra fornecer diferentes verções da imagem,
+            de acordo com o tamamanho de tela ou resolução.</p>
+          <p>O navegador escolhe automaticamente a versão mais adequada da imagem.</p>
+          <picture>
+            <source srcset="/aula003_27_2025/img/Pixel arte por do sol.jfif" media="(min-width: 400px)">
+            <source srcset="/aula003_27_2025/img/Por Do Sol Do Céu PNG.jfif" media="(max-width: 1080px)">
+            <img src="/aula003_27_2025/img/download.gif" alt="imagem reponsiva">
+          </picture>
+        </article>
+      </section>
     </main>
-    
-</body>
+
+    <footer>
+        <p>&copy; 2025 Exemplo de uso de HTML5 - Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
