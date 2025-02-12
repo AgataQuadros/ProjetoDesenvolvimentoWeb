@@ -1,0 +1,59 @@
+/* reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  estilo básico para corpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* conteiner para cada tipo de fonte */
+.exemplo-fonte {
+    margin: 30px 0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exemplo-fonte h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.exemplo-fonte p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* fontes especificas para cad categoria */
+
+/* fontes serifadas */
+.serifada p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sem-serifa p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monoespaçada p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cursiva p {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.fantasia p {
+    font-family: 'Papyrus', fantasy;
+}
