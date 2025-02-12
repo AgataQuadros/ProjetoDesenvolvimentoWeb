@@ -1,0 +1,72 @@
+/* reset básico para garantir consistêscia no estilo */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilo para o header */
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: "Roboto", sans-serif;
+    /* 1rem<=>16px */
+    font-size: 2.5rem;
+}
+
+/* estilo para o main */
+main {
+    padding: 20px;
+}
+
+/* estilo para a section */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    /* espaçamento entre caixas */
+    gap: 20px;
+}
+
+/* estilo para os articles */
+article {
+    flex: 1 1 calc(50% - 20px);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+article p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* estilo para as fontes */
+.font-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+.font-2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #555;
+}
+.font-3 {
+    font-family: "Mea culpa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+.font-4 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #222;
+}
