@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.caixa {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.borda_solida {
+    border: 5px solid green;
+}
+
+.borda_pontilhada {
+    border: 5px dotted red;
+}
+
+.borda_tracejada {
+    border: 5px dashed blue;
+}
+
+.borda_dupla {
+    border: 5px double purple;
+}
+
+.com_padding_e_margem {
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+#exemplo_padding_margin .caixa {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20;
+    margin-left: 25px;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
