@@ -11,7 +11,7 @@ body {
 
 header {
     flex: 1 1 calc(50% - 20px);
-    padding: 10px 20px 20px 20px; margin: 10px 300px -30px 300px;
+    padding: 10px 20px 50px 20px; margin: 10px 300px -30px 300px;
     text-align: center;
     border-radius: 15px;
     background-color: #e3bccf;
@@ -21,7 +21,7 @@ header {
 header h1 {
     font-family: "Mea Culpa", serif;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 60px;
 }
 
 nav {
@@ -36,8 +36,8 @@ nav a {
     background-color: #b894a6;
     color: #8b2d3c;
     text-decoration: none;
-    padding: 15px 15px 15px 15px; margin: 5px 50px;
-    border-radius: 600px;
+    padding: 18px 18px 18px 18px; margin: 5px 50px;
+    border-radius: 26px;
 }
 
 nav a:hover {
