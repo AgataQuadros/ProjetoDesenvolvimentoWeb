@@ -47,6 +47,7 @@ nav a:hover {
 }
 
 footer {
+    text-align: center;
     color: #A6567B;
 }
 
@@ -82,6 +83,10 @@ footer {
 .float-rigth img{
     float: right;
     margin: 10px;
+}
+
+.clear {
+    clear: both;
 }
 
 .separano {
