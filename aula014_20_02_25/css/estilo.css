@@ -53,3 +53,10 @@ main{
     line-height: 80px;
     border-radius: 8px;
 }
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+}
