@@ -50,7 +50,7 @@ header h1 {
 
 /* Estilo para a terceira imagem */
 .img3 {
-    z-index: 1;
+    z-index: 0;
     opacity: 0.6;
 }
 
